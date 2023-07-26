@@ -1,12 +1,11 @@
 :root {
   --primary-font: Roboto, sans-serif;
-  --primary-dark-color: #2e2f42;
-  --secondary-dark-color: #434455;
-  --primary-white-color: #ffffff;
-  --menu-nav-accent-color: #404bbf;
-  --primary-button-color: #4d5ae5;
-  --active-button-color: #404bbf;
-  --p-footer-color: #f4f4fd;
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+  --white: #ffffff;
+  --ocean: #404bbf;
+  --iris: #4d5ae5;
+  --cloud: #f4f4fd;
 }
 
 /* Main styles */
@@ -40,97 +39,109 @@ p {
   letter-spacing: 0, 125em;
 }
 
-/* INDEX FILE */
-
-/* Header */
-.logo {
-  color: var(--primary-dark-color);
-  font-size: 18;
-  font-weight: 800;
-  letter-spacing: 0, 16em;
-  line-height: 1.16;
-  text-transform: uppercase;
-}
-span {
-  color: var(--primary-button-color);
-  font-size: 18;
-  font-weight: 800;
-  letter-spacing: 0, 16em;
-  line-height: 1.16;
-  text-transform: uppercase;
-}
-.navigation > .nav-link {
-  color: var(--primary-dark-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.125em;
-}
-.navigation > .nav-link:active {
-  color: var(--menu-nav-accent-color);
+footer {
+  background-color: var(--navy-blue);
 }
 
-.adress-info {
-  color: var(--secondary-dark-color);
+.p-footer {
+  color: var(--cloud);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0, 125em;
 }
 
+/* INDEX FILE */
+
+/* Header */
+.logo {
+  color: var(--navy-blue);
+  font-size: 18;
+  font-weight: 800;
+  letter-spacing: 0, 16em;
+  line-height: 1.16;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+span {
+  color: var(--iris);
+  font-size: 18;
+  font-weight: 800;
+  letter-spacing: 0, 16em;
+  line-height: 1.16;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navigation .nav-link {
+  color: var(--navy-blue);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.125em;
+  text-decoration: none;
+}
+.navigation .nav-link:active {
+  color: var(--ocean);
+}
+
+.adress-info {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0, 125em;
+  text-decoration: none;
+  font-style: normal;
+}
+
 .adress-info:hover,
 .adress-info:focus {
-  color: var(--active-button-color);
+  color: var(--ocean);
 }
 
 /* Section 1 */
 
 .first-section {
-  background-color: var(--primary-dark-color);
+  background-color: var(--navy-blue);
 }
 .first-section .index-title {
-  color: var(--primary-white-color);
+  color: var(--white);
 }
 .button {
-  background-color: var(--primary-button-color);
-  color: var(--primary-white-color);
+  background-color: var(--iris);
+  color: var(--white);
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0, 25em;
 }
-
+.button {
+  cursor: pointer;
+}
 .button:hover {
-  background-color: var(--active-button-color);
+  background-color: var(--ocean);
 }
 
 /* Section 2  */
 .second-section h3 {
-  color: var(--primary-dark-color);
+  color: var(--navy-blue);
 }
 
 .second-section p,
 .fourth-section p {
-  color: var(--secondary-dark-color);
+  color: var(--slate);
 }
 
 .third-section h2 {
-  color: var(--primary-dark-color);
+  color: var(--navy-blue);
 }
 .fourth-section h2 {
-  color: var(--primary-dark-color);
+  color: var(--navy-blue);
 }
 .fourth-section h3 {
-  color: var(--secondary-dark-color);
+  color: var(--slate);
 }
 
-footer {
-  background-color: var(--primary-dark-color);
-}
+/* PORTFOLIO FILE */
 
-.p-footer {
-  color: var(--p-footer-color);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0, 125em;
+.port-buttons {
 }
