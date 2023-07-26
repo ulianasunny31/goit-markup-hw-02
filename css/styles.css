@@ -68,11 +68,14 @@ footer {
   letter-spacing: 0.54em;
   line-height: 1.16;
   text-transform: uppercase;
-  text-decoration: none;
   font-style: normal;
 }
 
-header span {
+.logo .link {
+  text-decoration: none;
+}
+
+header .span-logo {
   color: var(--navy-blue);
   font-family: "Raleway", sanf-serif;
   font-size: 18;
@@ -84,7 +87,7 @@ header span {
   font-style: normal;
 }
 
-footer span {
+footer .span-logo {
   color: var(--cloud);
   font-family: "Raleway", sanf-serif;
   font-size: 18;
@@ -95,17 +98,32 @@ footer span {
   text-decoration: none;
   font-style: normal;
 }
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
 .navigation .nav-link {
   color: var(--navy-blue);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32em;
-  text-decoration: none;
 }
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--ocean);
+}
+
 .navigation .nav-link:active {
   color: var(--ocean);
 }
 
+address {
+  font-style: normal;
+}
 .adress-info {
   color: var(--slate);
   font-size: 16px;
@@ -113,7 +131,6 @@ footer span {
   line-height: 1.5;
   letter-spacing: 0, 125em;
   text-decoration: none;
-  font-style: normal;
 }
 
 .adress-info:hover,
