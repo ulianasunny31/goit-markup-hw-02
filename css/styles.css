@@ -1,0 +1,88 @@
+:root {
+  --primary-font: Roboto, sans-serif;
+  --primary-dark-color: #2e2f42;
+  --secondary-dark-color: #434455;
+  --primary-white-color: #ffffff;
+  --menu-nav-accent-color: #404bbf;
+  --primary-button-color: #4d5ae5;
+  --active-button-color: #404bbf;
+}
+
+/* Main */
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-dark-color);
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1, 07;
+  letter-spacing: 0, 04em;
+  font-weight: 700;
+}
+h2 {
+  font-size: 36px;
+  letter-spacing: 0, 05em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  letter-spacing: 0, 1em;
+  font-weight: 500;
+}
+
+/* Header */
+.logo {
+  color: var(--primary-dark-color);
+  font-size: 18;
+  font-weight: 800;
+  letter-spacing: 0, 16em;
+  line-height: 1.16;
+  text-transform: uppercase;
+}
+span {
+  color: var(--primary-button-color);
+  font-size: 18;
+  font-weight: 800;
+  letter-spacing: 0, 16em;
+  line-height: 1.16;
+  text-transform: uppercase;
+}
+.navigation > .nav-link {
+  color: var(--primary-dark-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.125em;
+}
+.navigation > .nav-link:active {
+  color: var(--menu-nav-accent-color);
+}
+
+.adress-email {
+  color: var(--secondary-dark-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0, 125em;
+}
+
+.adress-phone {
+  color: var(--secondary-dark-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0, 125em;
+}
+
+/* Section 1 Main */
+.button {
+  background-color: var(--primary-button-color);
+  color: var(--primary-white-color);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0, 25em;
+}
+
+.button:hover {
+  background-color: var(--active-button-color);
+}
