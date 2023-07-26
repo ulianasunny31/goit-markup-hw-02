@@ -6,9 +6,10 @@
   --menu-nav-accent-color: #404bbf;
   --primary-button-color: #4d5ae5;
   --active-button-color: #404bbf;
+  --p-footer-color: #f4f4fd;
 }
 
-/* Main */
+/* Main styles */
 body {
   font-family: var(--primary-font);
   color: var(--primary-dark-color);
@@ -31,6 +32,15 @@ h3 {
   letter-spacing: 0, 1em;
   font-weight: 500;
 }
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0, 125em;
+}
+
+/* INDEX FILE */
 
 /* Header */
 .logo {
@@ -59,21 +69,27 @@ span {
   color: var(--menu-nav-accent-color);
 }
 
-.adress-email {
+.adress-info {
   color: var(--secondary-dark-color);
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0, 125em;
 }
 
-.adress-phone {
-  color: var(--secondary-dark-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0, 125em;
+.adress-info:hover,
+.adress-info:focus {
+  color: var(--active-button-color);
 }
 
-/* Section 1 Main */
+/* Section 1 */
+
+.first-section {
+  background-color: var(--primary-dark-color);
+}
+.first-section .index-title {
+  color: var(--primary-white-color);
+}
 .button {
   background-color: var(--primary-button-color);
   color: var(--primary-white-color);
@@ -85,4 +101,36 @@ span {
 
 .button:hover {
   background-color: var(--active-button-color);
+}
+
+/* Section 2  */
+.second-section h3 {
+  color: var(--primary-dark-color);
+}
+
+.second-section p,
+.fourth-section p {
+  color: var(--secondary-dark-color);
+}
+
+.third-section h2 {
+  color: var(--primary-dark-color);
+}
+.fourth-section h2 {
+  color: var(--primary-dark-color);
+}
+.fourth-section h3 {
+  color: var(--secondary-dark-color);
+}
+
+footer {
+  background-color: var(--primary-dark-color);
+}
+
+.p-footer {
+  color: var(--p-footer-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0, 125em;
 }
