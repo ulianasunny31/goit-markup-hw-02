@@ -19,17 +19,20 @@ h1 {
   line-height: 1, 07;
   letter-spacing: 0, 04em;
   font-weight: 700;
+  color: var(--navy-blue);
 }
 h2 {
   font-size: 36px;
   letter-spacing: 0, 05em;
   font-weight: 700;
+  color: var(--navy-blue);
 }
 
 h3 {
   font-size: 20px;
   letter-spacing: 0, 1em;
   font-weight: 500;
+  color: var(--navy-blue);
 }
 
 p {
@@ -37,6 +40,7 @@ p {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0, 125em;
+  color: var(--slate);
 }
 
 footer {
@@ -54,7 +58,7 @@ footer {
 /* INDEX FILE */
 
 /* Header */
-.logo {
+.logo-header {
   color: var(--navy-blue);
   font-size: 18;
   font-weight: 800;
@@ -63,6 +67,17 @@ footer {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.logo-footer {
+  color: var(--cloud);
+  font-size: 18;
+  font-weight: 800;
+  letter-spacing: 0, 16em;
+  line-height: 1.16;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 span {
   color: var(--iris);
   font-size: 18;
@@ -121,27 +136,20 @@ span {
   background-color: var(--ocean);
 }
 
-/* Section 2  */
-.second-section h3 {
-  color: var(--navy-blue);
-}
-
-.second-section p,
-.fourth-section p {
-  color: var(--slate);
-}
-
-.third-section h2 {
-  color: var(--navy-blue);
-}
-.fourth-section h2 {
-  color: var(--navy-blue);
-}
-.fourth-section h3 {
-  color: var(--slate);
-}
-
 /* PORTFOLIO FILE */
-
 .port-buttons {
+  cursor: pointer;
+}
+.port-buttons {
+  background-color: var(--cloud);
+  color: var(--iris);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0, 25em;
+}
+
+.port-buttons:active {
+  background-color: var(--ocean);
+  color: var(--white);
 }
