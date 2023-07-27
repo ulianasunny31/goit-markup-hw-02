@@ -84,7 +84,7 @@ footer .span-logo {
   text-decoration: none;
   font-style: normal;
   line-height: 1.17;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.03em;
 }
 
 /**
@@ -101,7 +101,7 @@ footer .span-logo {
   text-transform: uppercase;
   font-style: normal;
   line-height: 1.17;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.03em;
 }
 
 .logo .link {
@@ -117,7 +117,7 @@ header .span-logo {
   text-decoration: none;
   font-style: normal;
   line-height: 1.17;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.03em;
 }
 
 .navigation .nav-link {
@@ -232,4 +232,12 @@ address {
 .port-buttons:focus {
   background-color: var(--ocean);
   color: var(--white);
+}
+
+/* PICTURE LINKS */
+
+.pictures-titles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
