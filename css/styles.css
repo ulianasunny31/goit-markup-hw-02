@@ -24,7 +24,7 @@ body {
 h1 {
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   font-weight: 700;
   color: var(--navy-blue);
 }
