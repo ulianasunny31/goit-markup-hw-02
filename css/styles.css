@@ -24,23 +24,25 @@ h1 {
 }
 h2 {
   font-size: 36px;
-  letter-spacing: 0.72em;
+  letter-spacing: 0.02em;
   font-weight: 700;
   color: var(--navy-blue);
+  line-height: 1.11;
 }
 
 h3 {
   font-size: 20px;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.02em;
   font-weight: 500;
   color: var(--navy-blue);
+  line-height: 1.2;
 }
 
 p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32em;
+  letter-spacing: 0.02em;
   color: var(--slate);
 }
 
@@ -63,12 +65,12 @@ footer {
 .logo {
   color: var(--iris);
   font-family: "Raleway", sanf-serif;
-  font-size: 18;
+  font-size: 18px;
   font-weight: 800;
-  letter-spacing: 0.54em;
-  line-height: 1.16;
   text-transform: uppercase;
   font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .logo .link {
@@ -78,25 +80,25 @@ footer {
 header .span-logo {
   color: var(--navy-blue);
   font-family: "Raleway", sanf-serif;
-  font-size: 18;
+  font-size: 18px;
   font-weight: 800;
-  letter-spacing: 0.54em;
-  line-height: 1.16;
   text-transform: uppercase;
   text-decoration: none;
   font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 footer .span-logo {
   color: var(--cloud);
   font-family: "Raleway", sanf-serif;
-  font-size: 18;
+  font-size: 18px;
   font-weight: 800;
-  letter-spacing: 0.54em;
-  line-height: 1.16;
   text-transform: uppercase;
   text-decoration: none;
   font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .list {
@@ -117,13 +119,10 @@ footer .span-logo {
   color: var(--ocean);
 }
 
-.navigation .nav-link:active {
-  color: var(--ocean);
-}
-
 address {
   font-style: normal;
 }
+
 .adress-info {
   color: var(--slate);
   font-size: 16px;
@@ -140,16 +139,18 @@ address {
 
 /* Section 1 */
 
-.first-section {
+.title-section {
   background-color: var(--navy-blue);
 }
-.first-section .index-title {
+.title-section .main-title {
   color: var(--white);
+  text-align: center;
 }
 .button {
   background-color: var(--iris);
   color: var(--white);
   font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.64em;
@@ -157,8 +158,25 @@ address {
 .button {
   cursor: pointer;
 }
+.button:hover,
 .button:hover {
   background-color: var(--ocean);
+}
+
+.services-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.team-section {
+  background-color: var(--cloud);
+}
+
+.team-title {
+  text-transform: capitalize;
+}
+.team-list-item {
+  background-color: var(--white);
 }
 
 /* PORTFOLIO FILE */
@@ -171,10 +189,12 @@ address {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.64em;
+  letter-spacing: 0.04em;
+  font-weight: 500;
 }
 
-.port-buttons:active {
+.port-buttons:hover,
+.port-buttons:focus {
   background-color: var(--ocean);
   color: var(--white);
 }
