@@ -158,7 +158,7 @@ address {
 
 .title-section {
   background-color: var(--navy-blue);
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .title-section .main-title {
   color: var(--white);
