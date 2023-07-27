@@ -6,6 +6,12 @@
   --ocean: #404bbf;
   --iris: #4d5ae5;
   --cloud: #f4f4fd;
+  --green: #31d0aa;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --dairy: #fcfcfc;
 }
 
 /* Main styles */
@@ -17,8 +23,8 @@ body {
 
 h1 {
   font-size: 56px;
-  line-height: 1, 07;
-  letter-spacing: 1.12em;
+  line-height: 1.07;
+  letter-spacing: 0.03em;
   font-weight: 700;
   color: var(--navy-blue);
 }
@@ -46,6 +52,18 @@ p {
   color: var(--slate);
 }
 
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/**
+  |============================
+  | FOOTER
+  |============================
+*/
 footer {
   background-color: var(--navy-blue);
 }
@@ -55,22 +73,35 @@ footer {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32em;
+  letter-spacing: 0.02em;
+}
+footer .span-logo {
+  color: var(--cloud);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: 0.16em;
 }
 
-/* INDEX FILE */
-
-/* Header */
+/**
+  |============================
+  | HEADER
+  |============================
+*/
 
 .logo {
   color: var(--iris);
-  font-family: "Raleway", sanf-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   text-transform: uppercase;
   font-style: normal;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.16em;
 }
 
 .logo .link {
@@ -79,40 +110,22 @@ footer {
 
 header .span-logo {
   color: var(--navy-blue);
-  font-family: "Raleway", sanf-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   text-transform: uppercase;
   text-decoration: none;
   font-style: normal;
   line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-footer .span-logo {
-  color: var(--cloud);
-  font-family: "Raleway", sanf-serif;
-  font-size: 18px;
-  font-weight: 800;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-style: normal;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
+  letter-spacing: 0.16em;
 }
 
 .navigation .nav-link {
   color: var(--navy-blue);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32em;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .navigation .link:hover,
 .navigation .link:focus {
@@ -128,7 +141,7 @@ address {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0, 125em;
+  letter-spacing: 0, 02em;
   text-decoration: none;
 }
 
@@ -137,7 +150,11 @@ address {
   color: var(--ocean);
 }
 
-/* Section 1 */
+/**
+  |============================
+  | TITLE SECTION
+  |============================
+*/
 
 .title-section {
   background-color: var(--navy-blue);
@@ -153,20 +170,32 @@ address {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.64em;
+  letter-spacing: 0.04em;
 }
 .button {
   cursor: pointer;
 }
 .button:hover,
-.button:hover {
+.button:focus {
   background-color: var(--ocean);
 }
+
+/**
+  |============================
+  | SERVICES SECTION
+  |============================
+*/
 
 .services-title {
   text-align: center;
   text-transform: capitalize;
 }
+
+/**
+  |============================
+  | TEAM-SECTION
+  |============================
+*/
 
 .team-section {
   background-color: var(--cloud);
@@ -174,12 +203,18 @@ address {
 
 .team-title {
   text-transform: capitalize;
+  text-align: center;
 }
 .team-list-item {
   background-color: var(--white);
 }
 
-/* PORTFOLIO FILE */
+/**
+  |============================
+  | PORTFOLIO FILE
+  |============================
+*/
+
 .port-buttons {
   cursor: pointer;
 }
