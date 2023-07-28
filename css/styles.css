@@ -77,14 +77,6 @@ footer {
 }
 footer .span-logo {
   color: var(--cloud);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-style: normal;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 /**
@@ -104,20 +96,8 @@ footer .span-logo {
   letter-spacing: 0.03em;
 }
 
-.logo .link {
-  text-decoration: none;
-}
-
 header .span-logo {
   color: var(--navy-blue);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-style: normal;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 .navigation .nav-link {
