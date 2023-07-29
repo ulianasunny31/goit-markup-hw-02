@@ -21,37 +21,6 @@ body {
   background-color: var(--white);
 }
 
-h1 {
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  font-weight: 700;
-  color: var(--navy-blue);
-}
-h2 {
-  font-size: 36px;
-  letter-spacing: 0.02em;
-  font-weight: 700;
-  color: var(--navy-blue);
-  line-height: 1.11;
-}
-
-h3 {
-  font-size: 20px;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-  color: var(--navy-blue);
-  line-height: 1.2;
-}
-
-p {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-}
-
 .list {
   list-style: none;
 }
@@ -140,10 +109,15 @@ address {
   background-color: var(--navy-blue);
   letter-spacing: 0.02em;
 }
-.title-section .main-title {
+.main-title {
   color: var(--white);
   text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  font-weight: 700;
 }
+
 .button {
   background-color: var(--iris);
   color: var(--white);
@@ -163,6 +137,27 @@ address {
 
 /**
   |============================
+  | QUALITIES SECTION
+  |============================
+*/
+
+.qualilities-titles {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--navy-blue);
+  line-height: 1.2;
+}
+
+.qualities-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+/**
+  |============================
   | SERVICES SECTION
   |============================
 */
@@ -170,6 +165,11 @@ address {
 .services-title {
   text-align: center;
   text-transform: capitalize;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  color: var(--navy-blue);
+  line-height: 1.11;
 }
 
 /**
@@ -188,6 +188,21 @@ address {
 }
 .team-list-item {
   background-color: var(--white);
+}
+.team-list-name {
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: var(--navy-blue);
+  line-height: 1.2;
+}
+
+.team-list-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 /**
@@ -221,4 +236,17 @@ address {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  color: var(--navy-blue);
+  line-height: 1.11;
+}
+
+.pictures-p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
