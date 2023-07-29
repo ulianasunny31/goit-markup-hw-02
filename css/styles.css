@@ -141,7 +141,7 @@ address {
   |============================
 */
 
-.qualilities-titles {
+.qualities-titles {
   font-size: 20px;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -156,6 +156,7 @@ address {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+
 /**
   |============================
   | SERVICES SECTION
@@ -185,7 +186,13 @@ address {
 .team-title {
   text-transform: capitalize;
   text-align: center;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  color: var(--navy-blue);
+  line-height: 1.11;
 }
+
 .team-list-item {
   background-color: var(--white);
 }
@@ -233,14 +240,11 @@ address {
 /* PICTURE LINKS */
 
 .pictures-titles {
-  font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  font-size: 36px;
   letter-spacing: 0.02em;
-  font-weight: 700;
+  font-weight: 500;
   color: var(--navy-blue);
-  line-height: 1.11;
+  line-height: 1.2;
 }
 
 .pictures-p {
